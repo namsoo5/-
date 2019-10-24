@@ -27,7 +27,7 @@ public class 매일2 {
                 sum += value;
             }
 
-            if( sum+value > n ){   //피보나치결과값과 현재값더했을때 조건넘을시 끝
+            if( value > n ){
                 break;
             }
 
@@ -65,6 +65,7 @@ public class 매일2 {
             int z = x + y;
             x = y;
             y = z;
+
 
         }
         return sum;
